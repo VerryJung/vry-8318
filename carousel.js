@@ -14,6 +14,7 @@ function navigate(n){
 }
 
 function autoSlide(){
+	prompt("How are you");
 	var img = document.getElementsByClassName('slide');
 	for(i=0;i < img.length; i++ )
 	{
