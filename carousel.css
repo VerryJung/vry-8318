@@ -1,0 +1,52 @@
+.container{
+	margin: auto;
+	width: 70%;
+}
+
+.slide{
+	display: none;
+}
+
+.arrow{
+	top: 25%;
+	position: absolute;
+	color: lightblue;
+	text-align: center;
+	vertical-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	background-color: white;
+	padding: 10px;
+	border: none;
+}
+
+.arrow:hover{
+	background-color: gray;
+	cursor: pointer
+}
+
+.next{
+	right: 0;
+}
+
+img:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.buttons{
+	width: 20%;
+	margin: auto;
+}
+
+.control{
+	margin: 20px;
+	background-color: lightgreen;
+	border-radius: 30px;
+	padding: 20px;
+}
+
+.control:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
